@@ -154,6 +154,8 @@ align-items: center;
 margin-left: auto;
 margin-right: auto;
 padding-bottom:188px ;
+background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/hero.jpg);
+background-size: cover;
 
 
 }
@@ -260,7 +262,7 @@ min-width: auto;
   flex-flow: row;
   
 }
-.
+
 .main-content-section {
   display: flex;
 
@@ -271,6 +273,18 @@ min-width: auto;
 .section-main {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.main-list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 264px;
+  height: 112px;
+  background-color: #F4F4FD;
+  border-radius: 4px;
+  margin-bottom: 8px;
+ 
 }
  /*----------------SECTION TWO--------------------*/ 
 .content-title {
@@ -311,6 +325,7 @@ min-width: auto;
   color: var(--text400);
   padding-left: 52px;
   padding-right: 52px;
+  margin-bottom: 8px;
 }
 
 .list-calc2 {
@@ -324,6 +339,25 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 
 text-align: center;
 border-radius: 4px;
+}
+.social-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.social-list-link {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #4D5AE5;
+  border-radius: 50%;
+
+}
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: #404BBF;
 }
 /*============Section Portfolio==================*/
 
@@ -350,6 +384,45 @@ border-radius: 4px;
   padding-bottom: 120px;
   padding-right: auto;
   padding-left: auto;
+}
+
+
+/*--------------------Customers---------------------*/
+
+.company-list-link {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 168px;
+  height: 88px;
+  border:  1px solid #8E8F99;
+  border-radius: 4px;
+  margin-bottom: 120px;
+  color: #8E8F99;
+ 
+}
+
+.company-list-link:hover,
+.company-list-link:focus {
+  border: 1px solid #404BBF;
+  color: #404BBF;
+
+}
+
+
+
+.company-list-icon {
+  color: currentColor;
+}
+
+
+.customers-section {
+  padding-top: 130px;
+}
+.company-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 /*-----------------FOTER-------------------------*/
 .footer {
