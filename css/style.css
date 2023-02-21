@@ -158,6 +158,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), 
 background-size: cover;
 
 
+
 }
 
 .main-title {
@@ -234,6 +235,7 @@ min-width: auto;
 .modal-button:focus {
   color: #ffffff;
   background-color: var(--focuc);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 /*----------------------------MAin Page---------------*/
 .title-item { 
@@ -327,6 +329,9 @@ min-width: auto;
   padding-right: 52px;
   margin-bottom: 8px;
 }
+.section-item {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 
 .list-calc2 {
   flex-basis: calc(100%-72px)/4;
@@ -385,12 +390,14 @@ border-radius: 4px;
   padding-right: auto;
   padding-left: auto;
 }
-
+.pic-item :hover {
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 
 /*--------------------Customers---------------------*/
 
 .company-list-link {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 168px;
@@ -408,11 +415,15 @@ border-radius: 4px;
   color: #404BBF;
 
 }
-
-
-
 .company-list-icon {
-  color: currentColor;
+
+  fill:#8E8F99;
+}
+
+
+.company-list-link:hover .company-list-icon,
+.company-list-link:focus .company-list-icon {
+  fill: currentColor;
 }
 
 
@@ -444,6 +455,45 @@ background-color: #2E2F42;
    margin-top: 16px;
    width: 264px;
 
+
+}
+.suptitle-media {
+  
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   
+}
+.social-medial-list {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 16px;
 }
 
+.social-medial-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+}
+.social-medial-list-icon {
+color: #F4F4FD;
+
+
+}
+.social-medial-list-link:hover,
+.social-medial-list-link:focus {
+  background: #31D0AA;
+
+}
 /*===================?==========*/
