@@ -441,11 +441,15 @@ background-color: #2E2F42;
  
   padding-top: 100px;
   padding-bottom: 100px;
+  display: flex;
+
 }
 .accent-footer {
   color: #F4F4FD;
 }
-
+.medial-container{
+  display: flex;
+}
 .suptitle {
 
     line-height: 1.5;
@@ -464,15 +468,13 @@ background-color: #2E2F42;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-
-   
+  
 }
+
 .social-medial-list {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  align-items: center;
   gap: 16px;
   margin-top: 16px;
 }
