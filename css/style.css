@@ -156,9 +156,7 @@ margin-right: auto;
 padding-bottom:188px ;
 background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/hero.jpg);
 background-size: cover;
-
-
-
+max-width: 1440px;
 }
 
 .main-title {
@@ -442,6 +440,11 @@ background-color: #2E2F42;
   padding-top: 100px;
   padding-bottom: 100px;
   display: flex;
+}
+
+.footer-cotainer{
+display: flex;
+justify-content: flex-start;
 
 }
 .accent-footer {
